@@ -1,6 +1,9 @@
 node_modules
 .idea
+assets
 Makefile
-.stylelintrc.json
+.stylelintrc
+.htmlhintrc
+.editorconfig
 package.json
 package-lock.json
