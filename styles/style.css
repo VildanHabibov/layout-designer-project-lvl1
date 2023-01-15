@@ -1,0 +1,143 @@
+:root {
+  --white: #fff;
+  --semi-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --semi-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+.main {
+  color: var(--main);
+}
+.dark {
+  color: var(--dark);
+}
+.white {
+  color: var(--white);
+}
+.bg-main {
+  background-color: var(--main);
+}
+.bg-light {
+  background-color: var(--light);
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url("../asserts/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url("../asserts/fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("../asserts/fonts/Neucha/Neucha-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--dark);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+  outline: yellowgreen 1px dashed;
+}
+
+.header__title {
+  margin-bottom: 185px;
+}
+
+.background {
+  position: relative;
+}
+
+.background::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../asserts/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+  content: "";
+}
+
+.image-hero {
+  outline: blue 1px dashed;
+  height: 525px;
+  position: absolute;
+  top: 55px;
+  right: -270px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 540px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--main);
+  color: var(--white);
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
