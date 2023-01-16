@@ -10,13 +10,13 @@
   --blue: #1085c5;
 }
 
-.main {
+.color-main {
   color: var(--main);
 }
-.dark {
+.color-dark {
   color: var(--dark);
 }
-.white {
+.color-white {
   color: var(--white);
 }
 .bg-main {
@@ -141,3 +141,19 @@ section {
 .mt-40 {
   margin-top: 40px;
 }
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.video-section {
+  text-align: center;
+}
+
+.embedded-video {
+  z-index: 1;
+  position: relative;
+  margin-bottom: -200px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
