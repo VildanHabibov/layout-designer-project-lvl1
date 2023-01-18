@@ -15,15 +15,15 @@
       <span class="color-dark">в программировании</span>
     </h1>
     <img class="image-hero" src="asserts/images/main.png" alt="тото задумывается над кодом"/>
-    <div class="flex-container">
-      <div class="col">
+    <div class="flex">
+      <div class="col-2">
         <p>
           Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей
           продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны,
           некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
         </p>
       </div>
-      <div class="col">
+      <div class="col-2">
         <p>
           Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
           продуктивности, багам и бесконечному разочарованию.
@@ -38,12 +38,12 @@
   </section>
 </header>
 <main>
-  <section class="video-section">
+  <section class="video">
     <h1 class="mb-30 color-main">
-        <span class="color-dark">
-          Что же это такое<br>
-          когнитивные искажения?
-        </span>
+      <span class="color-dark">
+        Что же это такое,<br>
+      </span>
+      когнитивные искажения?
     </h1>
     <p class="mb-30">Что такое когнитивные искажения. Petrovna Channel</p>
     <iframe
@@ -56,52 +56,237 @@
     </iframe>
   </section>
   <div class="bg-dark color-white">
-  <section class="navigation-section">
-    <nav>
-      <ul>
-        <li>
-          <h2><span class="color-main">5 когнитивных искажений</span><br>
-            о существовании которых стоит помнить</h2>
-        </li>
-        <li class="navigation list"><a href="#">
-          <article class="color-dark bg-light">
-            <span>1</span>
-            <h3 class="color-main"> Эффект ИКЕА</h3>
-            <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
-          </article>
-        </a></li>
-        <li><a href="#">
-          <article class="color-dark bg-light">
-            <span>2</span>
-            <h3 class="color-main">Преждевременная оптимизация</h3>
-            <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
-          </article>
-        </a></li>
-        <li><a href="#">
-          <article class="color-dark bg-light">
-            <span>3</span>
-            <h3 class="color-main">Искажение новизны</h3>
-            <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
-          </article>
-        </a></li>
-        <li><a href="#">
-          <article class="color-dark bg-light"><span>4</span>
-            <h3 class="color-main">Гиперболическое обесценивание</h3>
-            <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но
-              доступную в будущем.</p>
-          </article>
-        </a></li>
-        <li><a href="#">
-          <article class="color-dark bg-light"><span>5</span>
-            <h3 class="color-main">Ошибка планирования</h3>
-            <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
-          </article>
-        </a></li>
-      </ul>
-    </nav>
-  </section>
+    <section id="navigation">
+      <nav>
+        <ul class="flex list-style-none">
+          <li class="col-3">
+            <h2>5 когнитивных искажений<br>
+              <span class="color-white">о существовании которых стоит помнить</span>
+            </h2>
+          </li>
+          <li class="col-3"><a href="#ikea-effect">
+            <article class="color-dark bg-light">
+              <span class="numeric">1</span>
+              <h3 class="color-main"> Эффект ИКЕА</h3>
+              <p class="text-header-font">
+                Вы переоцениваете собственные решения,
+                и, как следствие, недооцениваете решения других.
+              </p>
+            </article>
+          </a></li>
+          <li class="col-3"><a href="#premature-optimization">
+            <article class="color-dark bg-light">
+              <span class="numeric">2</span>
+              <h3 class="color-main">Преждевременная оптимизация</h3>
+              <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+            </article>
+          </a></li>
+          <li class="col-3"><a href="#distortion-of-novelty">
+            <article class="color-dark bg-light">
+              <span class="numeric">3</span>
+              <h3 class="color-main">Искажение новизны</h3>
+              <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более
+                старые.</p>
+            </article>
+          </a></li>
+          <li class="col-3"><a href="#hyperbolic-depreciation">
+            <article class="color-dark bg-light">
+              <span class="numeric">4</span>
+              <h3 class="color-main">Гиперболическое обесценивание</h3>
+              <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но
+                доступную в будущем.</p>
+            </article>
+          </a></li>
+          <li class="col-3"><a href="#errors-in-planning">
+            <article class="color-dark bg-light">
+              <span class="numeric">5</span>
+              <h3 class="color-main">Ошибка планирования</h3>
+              <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+            </article>
+          </a></li>
+        </ul>
+      </nav>
+    </section>
   </div>
+  <div class="background bg-light">
+    <section id="ikea-effect">
+      <article class="flex">
+        <img
+          src="asserts/images/1.png"
+          alt="Тота и его друг не понимают что происходит в экране компьютера"
+        />
+        <div class="col-min-content">
+          <span class="small-header-text color-semi-dark">Когнитивные искажения</span>
+          <h2 class="mb-30 color-dark">Эффект ИКЕА</h2>
+          <p class="header-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения
+            других.</p>
+        </div>
+        <h3 class="col-1 caption-header mt-80 color-white bg-brown">Как проявляется</h3>
+        <p class="col-2">Когнитивное искажение называется так из-за того,
+          что потребители зачастую предпочитают покупать товары,
+          которые они могут собрать сами, а не уже собранные кем-то.
+        </p>
+        <p class="col-2">Мы склонны переоцнивать наши собственные решения и недооценивать решения других.
+          Если вы когда-то работали в компании,
+          которая использовала тупой внутренний инструмент вместо более удобного готового решения,
+          вы понимаете, о чём я говорю.
+        </p>
+      </article>
+    </section>
+  </div>
+  <div class="background bg-brown color-white">
+    <section id="premature-optimization">
+      <article class="flex">
+        <div class="col-min-content">
+          <span class="small-header-text color-semi-white">Когнитивные искажения</span>
+          <h2 class="mb-30 color-white">Преждевременная оптимизация</h2>
+          <p class="header-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+        </div>
+        <img
+          src="asserts/images/2.png"
+          alt="Тота и его друг не понимают что происходит в экране компьютера"
+        />
+
+        <h3 class="col-1 caption-header mt-80 bg-light color-brown">Как проявляется</h3>
+        <p class="col-2">Если вы добавите аэродинамический спойлер
+          к своему старому автомобилю вместо ремонта мотора,
+          то автомобиль не станет быстрее.
+        </p>
+        <p class="col-2">Отличный пример: писать максимально
+          подтюненный и высокопроизводительный
+          код для всего лишь экспериментального проекта.
+        </p>
+      </article>
+    </section>
+  </div>
+  <div class="background bg-light color-dark">
+    <section id="distortion-of-novelty">
+      <article class="flex">
+        <img
+          src="asserts/images/3.png"
+          alt="Тота и его друг не понимают что происходит в экране компьютера"
+        />
+        <div class="col-min-content">
+          <span class="small-header-text color-semi-dark">Когнитивные искажения</span>
+          <h2 class="mb-30 color-dark">Искажение новизны</h2>
+          <p class="header-text">Вы даёте более высокую оценку тем событиям,
+            которые произошли недавно, и недооцениваете более старые.</p>
+        </div>
+
+        <h3 class="col-1 caption-header mt-80 bg-brown color-white">Как проявляется</h3>
+        <p class="col-2">Если вы добавите аэродинамический спойлер
+          к своему старому автомобилю вместо ремонта мотора,
+          то автомобиль не станет быстрее.
+        </p>
+        <p class="col-2">Отличный пример: писать максимально
+          подтюненный и высокопроизводительный
+          код для всего лишь экспериментального проекта.
+        </p>
+      </article>
+    </section>
+  </div>
+  <div class="background bg-brown color-white">
+    <section id="hyperbolic-depreciation">
+      <article class="flex">
+        <div class="col-min-content">
+          <span class="small-header-text color-semi-white">Когнитивные искажения</span>
+          <h2 class="mb-30 color-white">Гиперболическое обесценивание</h2>
+          <p class="header-text">Вы гонитесь за немедленной маленькой выгодой
+            и игнорируете более крупную,
+            недоступную сейчас, но доступную в будущем.</p>
+        </div>
+        <img
+          src="asserts/images/2.png"
+          alt="Тота и его друг не понимают что происходит в экране компьютера"
+        />
+
+        <h3 class="col-1 caption-header mt-80 bg-light color-brown">Как проявляется</h3>
+        <p class="col-2">Вы когда-нибудь откладывали написание теста?
+          Ловили себя на использовании клавиш-стрелок в Vim?
+          Поздравляю, у вас наблюдается гиперболическое обесценивание.
+        </p>
+        <p class="col-2">
+          Немедленная выгода от использования чего-то быстродоступного
+          значительно смягчает боль, которую нужно перетерпеть,
+          чтобы усвоить правильный синтаксис для перемещения на нужную строчку.
+          Но как только вы поймёте как перемещаться быстрее,
+          выгода в будущем намного выше. В итоге вы сохраните много времени.
+        </p>
+      </article>
+    </section>
+  </div>
+  <div class="background bg-light color-dark">
+    <section id="errors-in-planning">
+      <article class="flex">
+        <img
+          src="asserts/images/5.png"
+          alt="Тота записывает задачи в блокнот"
+        />
+        <div class="col-min-content">
+          <span class="small-header-text color-semi-dark">Когнитивные искажения</span>
+          <h2 class="mb-30 color-dark">Ошибка планирования</h2>
+          <p class="header-text">
+            Неправильно рассчитывать время
+            необходимое для завершения задачи.
+          </p>
+        </div>
+
+        <h3 class="col-1 caption-header mt-80 bg-brown color-white">Как проявляется</h3>
+        <p class="col-2">
+          Одно из искажений, которое должно признать большинство из нас.
+          И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки,
+          в которые невозможно закончить запланированное.
+        </p>
+        <p class="col-2">
+          Это отлично выражается в старом афоризме:
+          Первые 90% готового кода отнимают первые 90% времени разработки.
+          Оставшиеся 10% отнимают вторые 90% времени разработки.
+        </p>
+      </article>
+    </section>
+  </div>
+
+
 </main>
-<footer></footer>
+<footer>
+  <div class="background color-white">
+    <section id="contact-form" class="flex bg-main-dark ">
+      <h3 class="col-footer color-white">
+        Хотите узнать больше?<br>
+        Подпишитесь на обновления
+      </h3>
+        <form class="col-footer" action="" method="post">
+        <label for="email">Электронная почта</label>
+        <div style="margin-top: 9px" class="flex-footer">
+        <input
+          class="col-max"
+          id="email"
+          placeholder="Ваша электронная почта"
+          type="text"
+          name="email"
+        />
+        <button class="subscribe-btn">.</button>
+        </div>
+        <span class="subscribe-offer">
+              Подписываясь, вы принимаете
+              <a class="color-white" href="#">правила сервиса</a>
+          </span>
+      </form>
+    </section>
+  </div>
+  <div class="contact-information">
+    <p>© 2023 Вильдан Хабибов</p>
+    <p> По материалам статьи
+      <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">
+        Yash Ranadive Cognitive Biases in Programming
+      </a>
+    </p>
+    <p>
+      <a href="https://ru.hexlet.io/">
+        Курсы программирования Hexlet
+      </a>
+    </p>
+  </div>
+</footer>
 </body>
 </html>
