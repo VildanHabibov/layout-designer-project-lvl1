@@ -222,6 +222,7 @@ section {
   column-gap: 30px;
   row-gap: 20px;
 }
+
 .col-min-content {
   flex: 1 1 492px;
 }
