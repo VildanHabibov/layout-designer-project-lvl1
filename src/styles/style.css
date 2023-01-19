@@ -191,12 +191,12 @@ section {
 }
 
 
-#navigation {
+.navigation-wrap {
   width: 100%;
   padding-top: 200px;
 }
 
-#navigation article {
+.navigation-wrap article {
   height: 100%;
   padding: 24px;
 }
@@ -235,15 +235,15 @@ section {
   list-style-type: none;
 }
 
-#navigation h2 {
+.navigation-wrap h2 {
   font-size: 52px;
 }
 
-#navigation h3 {
+.navigation-wrap h3 {
   margin-bottom: 16px;
 }
 
-#navigation a {
+.navigation-wrap a {
   text-decoration: none;
   color: var(--white);
 }
